@@ -1,10 +1,13 @@
-import React, {useState, Suspense} from 'react';
-const RemoteHome = React.lazy(() => import("homeapp/App"))
-const RemoteAboutUs = React.lazy(() => import("aboutusapp/App"))
+import React, {useState, Suspense, useEffect} from 'react';
+let RemoteHome = React.lazy(() => import("homeapp/App"))
+let RemoteAboutUs = React.lazy(() => import("aboutusapp/App"))
 
 
 const App = () => {
   const [page, setPage] = useState("home")
+  useEffect(function() {
+
+  }, [page])
   return (
 
     <div>

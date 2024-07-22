@@ -7,10 +7,10 @@ const App = () => {
         margin: '10px',
         padding: '10px',
         textAlign: 'center',
-        backgroundColor: 'cyan',
+        backgroundColor: '#ffc09f',
       }}
     >
-      <h1>About Us...!</h1>
+      <h1>About Us</h1>
     </div>
   );
 };

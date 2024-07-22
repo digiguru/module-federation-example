@@ -10,7 +10,7 @@ const App = () => {
         backgroundColor: 'cyan',
       }}
     >
-      <h1>Child App</h1>
+      <h1>Home</h1>
     </div>
   );
 };
